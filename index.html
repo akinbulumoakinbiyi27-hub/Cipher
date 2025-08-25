@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cipher.com - Web Developer</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .title {
+            font-weight: bold;
+            font-size: 80px;
+            color: white;
+            text-decoration: underline;
+            margin: 20px 0;
+            text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+        }
+        
+        hr {
+            border: 1px solid #444;
+            margin: 30px 0;
+        }
+        
+        .picture {
+            width: 500px;
+            height: 300px;
+            padding: 10px;
+            border-radius: 20px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+            border: 2px solid #444;
+            margin: 0 auto;
+            display: block;
+            background-color: #222;
+        }
+        
+        .picture:active {
+            transform: scale(0.98);
+        }
+        
+        .search-bar {
+            font-size: 24px;
+            padding: 15px;
+            margin: 20px 0;
+            background-color: #333;
+            color: white;
+            border: 2px solid #555;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 500px;
+        }
+        
+        .info {
+            color: white;
+            background-color: #2244aa;
+            font-size: 40px;
+            font-weight: bold;
+            padding: 20px 40px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            border: none;
+            border-radius: 15px;
+            margin: 20px 0;
+            display: inline-block;
+            cursor: pointer;
+        }
+        
+        .info:active {
+            background-color: #3366cc;
+            transform: translateY(2px);
+        }
+        
+        .intro {
+            text-align: center;
+            color: #ccc;
+            font-size: 30px;
+            margin: 30px 0;
+            padding: 0 20px;
+            line-height: 1.5;
+        }
+        
+        .intro strong {
+            color: #88aaff;
+        }
+        
+        .link2 {
+            color: #88aaff;
+            font-size: 28px;
+            text-decoration: none;
+            margin: 20px 0;
+            display: inline-block;
+        }
+        
+        .link2:hover {
+            text-decoration: underline;
+        }
+        
+        .button-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin: 40px 0;
+        }
+        
+        .Touch {
+            background-color: blue;
+            color: white;
+            border: none;
+            height: 120px;
+            width: 200px;
+            border-radius: 20px;
+            transition: all 0.3s;
+            box-shadow: 0 5px 10px rgba(0, 0, 255, 0.3);
+            font-size: 24px;
+            cursor: pointer;
+        }
+        
+        .Touch:active {
+            background-color: white;
+            color: blue;
+            transform: scale(0.95);
+        }
+        
+        .subscribe {
+            background-color: red;
+            color: white;
+            border: none;
+            height: 120px;
+            width: 200px;
+            border-radius: 20px;
+            transition: all 0.3s;
+            box-shadow: 0 5px 10px rgba(255, 0, 0, 0.3);
+            font-size: 24px;
+            cursor: pointer;
+        }
+        
+        .subscribe:active {
+            opacity: 0.7;
+            transform: scale(0.95);
+        }
+        
+        .signin {
+            background-color: purple;
+            color: white;
+            border: none;
+            height: 120px;
+            width: 200px;
+            border-radius: 20px;
+            transition: all 0.3s;
+            box-shadow: 0 5px 10px rgba(128, 0, 128, 0.3);
+            font-size: 24px;
+            cursor: pointer;
+        }
+        
+        .signin:active {
+            opacity: 0.7;
+            transform: scale(0.95);
+        }
+        
+        .feedback {
+            color: white;
+            font-size: 36px;
+            margin: 30px 0;
+        }
+        
+        .checkbox {
+            width: 40px;
+            height: 40px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">Cipher.com</div>
+    
+    <hr>
+    
+    <input class="search-bar" type="text" placeholder="Search">
+    
+    <img class="picture" src="https://via.placeholder.com/500x300/333333/888888?text=Cipher+Profile" alt="Profile Picture">
+    
+    <hr>
+    
+    <button class="info">MY INFO</button>
+    
+    <hr>
+    
+    <p class="intro">
+        <i><b>Hi I am <strong>Cipher</strong>, an upcoming programmer and web designer with the aim of providing quality and ghost like services</b></i>
+    </p>
+    
+    <a class="link2" href="mailto:akinbulumoakinbiyi27@gmail.com">Contact us</a>
+    
+    <hr>
+    
+    <div class="button-container">
+        <button class="Touch">Get in touch</button>
+        <button class="subscribe">SUBSCRIBE</button>
+        <button class="signin">Sign In</button>
+    </div>
+    
+    <p class="feedback">Are you satisfied with this webpage?</p>
+    <input class="checkbox" type="checkbox">
+</body>
+</html>
